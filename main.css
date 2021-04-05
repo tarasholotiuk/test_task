@@ -1,0 +1,273 @@
+@font-face {
+    font-family: Roboto;
+    src: url("fonts/Roboto-Regular.ttf") format("truetype");
+}
+
+body {
+    background: #E5E5E5;
+    font-family: Roboto, serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 30px;
+    letter-spacing: 0;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1{
+    width: 327px;
+    height: 60px;
+    font-size: 47.3392px;
+    line-height: 55px;
+    color: #070707;
+}
+
+h2{
+    position: absolute;
+    width: 945px;
+    height: 44px;
+    top: 50px;
+    left: 250px;
+    font-size: 34px;
+    line-height: 40px;
+    text-align: center;
+    margin: 0;
+}
+
+.main{
+    width: 1445px;
+    Height: 4185px;
+    background: #FFFFFF;
+    top: 0;
+    left: 0;
+}
+
+.navigation {
+    position: absolute;
+    width: 945px;
+    height: 50px;
+    left: 250px;
+    top: 40px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.navigation a{
+    width: 90px;
+    height: 30px;
+    color: #828282;
+}
+.navigation a:first-child {
+    color: black;
+}
+
+.navigation a:last-child {
+    width: 70px;
+    height: 30px;
+}
+
+.vector {
+    position: absolute;
+    width: 945px;
+    height: 0;
+    left: 250px;
+    top: 90px;
+    border: 1px solid #828282;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.home{
+    position: absolute;
+    width: 945px;
+    height: 615px;
+    left: 250px;
+    top: 125px;
+}
+
+.home p{
+    position: absolute;
+    width: 259px;
+    height: 50px;
+    top: 41px;
+    right: 0;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: right;
+    margin: 0;
+}
+
+.home img{
+    position: absolute;
+    width: 945px;
+    height: 500px;
+    top: 150px;
+}
+
+.aboutMe{
+    position: absolute;
+    width: 1445px;
+    height: 640px;
+    top: 840px;
+    background: #F4F4F4;
+}
+
+.aboutMe p{
+    position: absolute;
+    width: 451px;
+    height: 220px;
+    right: 250px;
+    top: 255px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #070707;
+    margin: 0;
+}
+
+.aboutMe img{
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    top: 140px;
+    left: 250px;
+}
+
+.skills{
+    position: absolute;
+    width: 1445px;
+    height: 399px;
+    top: 1480px;
+}
+
+.icons-group{
+    position: absolute;
+    width: 945px;
+    height: 205px;
+    left: 250px;
+    top: 144px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.icons-group > div{
+    width: 170px;
+    height: 205px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.icons-group > div > img{
+    display: block;
+    width: 91px;
+    height: 88.03px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icons-group p{
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #828282;
+    margin: 0;
+}
+
+.stars{
+    width: 170px;
+    height: 25.84px;
+    /*bottom: 0;*/
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.stars img{
+    width: 26.63px;
+    height: 25.84px;
+}
+
+.portfolio{
+    position: absolute;
+    width: 1445px;
+    height: 2087px;
+    top: 1879px;
+    background: #F4F4F4;
+}
+
+.portfolio img{
+    position: absolute;
+    width: 945px;
+    height: 510px;
+    left: 250px;
+}
+
+.img_Snakers{
+    top: 143px;
+}
+
+.img_Helias{
+    top: 803px;
+}
+
+.img_Hoang{
+    top: 1463px;
+}
+
+.portfolio a{
+    position: absolute;
+    width: 945px;
+    height: 24px;
+    left: 250px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #070707;
+}
+
+.portfolio a:nth-of-type(2){
+    width: 276px;
+    top: 693px;
+    left: 584px;
+}
+
+.portfolio a:nth-of-type(3){
+    top: 1353px;
+}
+
+.portfolio a:last-child{
+    top: 2013px;
+}
+
+.contacts{
+    position: absolute;
+    width: 945px;
+    height: 109px;
+    left: 250px;
+    top: 4016px;
+}
+
+.contacts h2{
+    height: 32px;
+    top: 0;
+    left: 0;
+}
+
+.icons{
+    position: absolute;
+    width: 340px;
+    height: 40px;
+    left: 302px;
+    top: 69px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
